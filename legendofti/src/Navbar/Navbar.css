@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 15px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.tipfp {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.white {
+  background-color: white;
+  border-bottom: 1px;
+  border-color: black;
+}
+
+
+
+.navbar-link{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: 'LeagueSpartan';
+  padding-bottom: 10px;
+  transition-duration: 0.4s;
+}
+
+.navbar-link.black{
+  color: black;
+}
+
+.navbar-link:hover{
+  text-decoration: underline;
+  text-decoration-color: #ffb6ad;
+  text-decoration-thickness: 3.5px;
+}
+
+.navbar-link:active{
+  text-decoration: underline;
+  text-decoration-color: #ffb6ad;
+  text-decoration-thickness: 3.5px;
+}
+
+@font-face {
+  font-family: "LeagueSpartan";
+  src: local("LeagueSpartan"),
+    url(../fonts/LeagueSpartan-Bold.woff) format("woff");
+}

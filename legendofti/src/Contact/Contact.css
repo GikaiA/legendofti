@@ -1,0 +1,54 @@
+.contact-section{
+    position: fixed; /* or absolute, depending on your layout */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffb6ad;
+    z-index: -1;
+}
+
+
+.container {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 290px;
+    font-weight: bolder;
+  }
+  
+  .input-field,
+  .message-box {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .send-button button {
+    background-color: #ffb6ad;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .send-button button:hover {
+    background-color: #ff9081;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      margin-top: 200px; /* Adjust margin-top for smaller screens */
+    }
+  }
