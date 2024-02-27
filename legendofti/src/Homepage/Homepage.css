@@ -19,23 +19,43 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
   color: white;
   z-index: 1;
 }
 
 .heading-section {
-  display: block;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center; /* Center align text */
 }
 
 .heading-title {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .Typewriter {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .Typewriter__cursor {
   color: #ffb6ad;
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+  .homepage {
+    height: auto; /* Adjust height dynamically */
+    padding: 20px; /* Add padding for better readability */
+  }
+
+  .heading-title {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  .Typewriter {
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
 }

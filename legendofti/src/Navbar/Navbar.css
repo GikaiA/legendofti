@@ -29,8 +29,6 @@
   background-color:#AD84A3;
 }
 
-
-
 .navbar-link{
   font-size: 18px;
   color: white;
@@ -55,6 +53,43 @@
   text-decoration-color: #ffb6ad;
   text-decoration-thickness: 3.5px;
 }
+
+
+/* .menu-toggle {
+  display: none; 
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 5px 0;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 70%; 
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease;
+}
+
+.navbar-menu.open {
+  left: 0;
+} */
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show for smaller screens */
+  }
+}
+
 
 @font-face {
   font-family: "LeagueSpartan";
