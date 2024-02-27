@@ -1,0 +1,38 @@
+.footer-section {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.footer-transparent {
+  background-color: transparent;
+}
+
+.footer-colored {
+  background-color: #3e4149;
+}
+
+.copyright-section {
+  padding-left: 10px;
+}
+
+.copyright-sentence {
+  font-size: 20px;
+}
+
+.icons-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+  width: 100px;
+  color: white;
+}

@@ -1,20 +1,23 @@
-.about-section{
-    background-color: white;
-    display: flex;
-    padding-top: 20px;
+.about-section {
+  background-color: rgb(85, 101, 116);
+  display: flex;
+  padding-top: 20px;
+  padding-left:10px;
 }
 
-
-.ti-pic{
-    width: 817px;
+.ti-pic {
+  width: 815px;
 }
 
-
-.about-paragraph{
-    padding-top: 320px; 
-    text-align: center;
+.about-paragraph {
+  font-weight: bolder;
+  color: white;
+  padding-top: 320px;
+  text-align: center;
+  background-color: rgb(172, 172, 172);
 }
 
-.about-text{
-    font-size: 30px;
+.about-text {
+  background-color: rgb(85, 101, 116);
+  font-size: 30px;
 }

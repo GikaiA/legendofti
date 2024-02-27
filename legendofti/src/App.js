@@ -5,6 +5,7 @@ import Gaming from "./Gaming/Gaming";
 import Contact from "./Contact/Contact";
 import About from "./About/About";
 import Navbar from "./Navbar/Navbar";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

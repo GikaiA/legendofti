@@ -26,9 +26,7 @@
 }
 
 .white {
-  background-color: white;
-  border-bottom: 1px;
-  border-color: black;
+  background-color:#AD84A3;
 }
 
 
@@ -42,9 +40,9 @@
   transition-duration: 0.4s;
 }
 
-.navbar-link.black{
+/* .navbar-link.black{
   color: black;
-}
+} */
 
 .navbar-link:hover{
   text-decoration: underline;
@@ -52,7 +50,7 @@
   text-decoration-thickness: 3.5px;
 }
 
-.navbar-link:active{
+.navbar-link.active{
   text-decoration: underline;
   text-decoration-color: #ffb6ad;
   text-decoration-thickness: 3.5px;
