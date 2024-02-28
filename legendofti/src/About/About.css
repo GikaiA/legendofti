@@ -1,8 +1,10 @@
 .about-section {
   background-color: rgb(85, 101, 116);
-  display: flex;
+  display: block;
   padding-top: 20px;
-  padding-left:10px;
+  padding-left: 10px;
+  height: 1100px;
+  max-height: 100%;
 }
 
 .ti-pic {
@@ -12,9 +14,8 @@
 .about-paragraph {
   font-weight: bolder;
   color: white;
-  padding-top: 320px;
   text-align: center;
-  background-color: rgb(172, 172, 172);
+  /* background-color: rgb(172, 172, 172); */
 }
 
 .about-text {
@@ -22,4 +23,22 @@
   font-size: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .about-section {
+    max-height: 865px; /* Reset max-height */
+    overflow: scroll;
+  }
 
+
+  .about-text {
+    font-size: 19px; /* Reduced font size further for smaller screens */
+  }
+
+  .ti-pic{
+    width: 100%;
+  }
+  .about-section{
+    padding-left: 0;
+    padding-top:0 ;
+  }
+}

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./About.css";
-import ti from "../images/ti.png";
+import ti from "../images/ti-landscape.png";
 
 function About() {
   return (
