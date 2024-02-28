@@ -26,12 +26,11 @@
 @media screen and (max-width: 768px) {
   .about-section {
     max-height: 865px; /* Reset max-height */
-    overflow: scroll;
   }
 
 
   .about-text {
-    font-size: 19px; /* Reduced font size further for smaller screens */
+    font-size: 18px; /* Reduced font size further for smaller screens */
   }
 
   .ti-pic{
