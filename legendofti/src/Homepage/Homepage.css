@@ -43,22 +43,3 @@ video {
 .Typewriter__cursor {
   color: #ffb6ad;
 }
-/* 
-@media screen and (max-width: 768px) {
-  .homepage {
-    height: auto; 
-    padding: 20px; 
-  }
-
-  .heading-section{
-
-  }
-
-  .heading-title {
-    font-size: 40px; 
-  }
-
-  .Typewriter {
-    font-size: 35px;
-  }
-} */

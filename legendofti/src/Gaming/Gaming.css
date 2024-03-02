@@ -3,14 +3,33 @@
     height: fit-content;
 }
 
+.social-section{
+    padding-top: 30px;
+}
+
 .social-container{
     display: flex;
     justify-content: center;
 }
 
 
+.social-title{
+    font-family: 'LeagueSpartan';
+}
+
 .twitch-video{
     width: 500px;
     height: 400px;
 }
 
+.yt-video{
+    width: 400px;
+    height: 500px;
+}
+
+
+@font-face {
+    font-family: "LeagueSpartan";
+    src: local("LeagueSpartan"),
+      url(../fonts/LeagueSpartan-Bold.woff) format("woff");
+  }
