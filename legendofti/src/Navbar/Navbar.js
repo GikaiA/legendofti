@@ -6,7 +6,7 @@ import tipfp from "../images/ti-pfp.png";
 function Navbar() {
   const location = useLocation();
 
-  const isHomePage = location.pathname === "/";
+  // const isHomePage = location.pathname === "/";
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +15,11 @@ function Navbar() {
   };
 
   return (
-    <div className={`navbar ${isHomePage ? "transparent" : "white"}`}>
+    <div
+      className={`navbar ${
+        location.pathname === "/" ? "transparent" : "white"
+      }`}
+    >
       <img src={tipfp} alt="ti-pfp" className="tipfp"></img>
       <div
         className={`menu-toggle ${isOpen ? "open" : ""}`}
@@ -29,7 +33,9 @@ function Navbar() {
         <li>
           <Link
             to="/"
-            className={`navbar-link ${isHomePage ? "active" : "black"}`}
+            className={`navbar-link ${
+              location.pathname === "/" ? "active" : ""
+            }`}
           >
             Home
           </Link>
@@ -37,7 +43,9 @@ function Navbar() {
         <li>
           <Link
             to="/about"
-            className={`navbar-link ${isHomePage ? "" : "black"}`}
+            className={`navbar-link ${
+              location.pathname === "/about" ? "active" : ""
+            }`}
           >
             About
           </Link>
@@ -45,7 +53,9 @@ function Navbar() {
         <li>
           <Link
             to="/gaming"
-            className={`navbar-link ${isHomePage ? "" : "black"}`}
+            className={`navbar-link ${
+              location.pathname === "/gaming" ? "active" : ""
+            }`}
           >
             Gaming
           </Link>
@@ -53,7 +63,9 @@ function Navbar() {
         <li>
           <Link
             to="/contact"
-            className={`navbar-link ${isHomePage ? "" : "black"}`}
+            className={`navbar-link ${
+              location.pathname === "/contact" ? "active" : ""
+            }`}
           >
             Contact
           </Link>
