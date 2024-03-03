@@ -42,3 +42,18 @@
   src: local("LeagueSpartan"),
     url(../fonts/LeagueSpartan-Bold.woff) format("woff");
 }
+
+@media screen and (max-width: 768px) {
+  .social-container {
+    display: block;
+  }
+
+  .twitch-video{
+    max-width: 100%; 
+  }
+
+  .twitch-chat {
+    width: 600px;
+    max-width: 100%; /* Reduce the width to fit smaller screens */
+  }
+}
