@@ -1,35 +1,44 @@
-.gaming-wrapper{
-    background-color: white;
-    height: fit-content;
+.gaming-wrapper {
+  background-color: white;
+  height: fit-content;
 }
 
-.social-section{
-    padding-top: 30px;
+.social-section {
+  padding-top: 30px;
 }
 
-.social-container{
-    display: flex;
-    justify-content: center;
+.social-container {
+  display: flex;
+  justify-content: center;
 }
 
-
-.social-title{
-    font-family: 'LeagueSpartan';
+.social-title {
+  font-family: "LeagueSpartan";
 }
 
-.twitch-video{
-    width: 500px;
-    height: 400px;
+.twitch-video {
+  width: 500px;
+  height: 400px;
 }
 
-.yt-video{
-    width: 400px;
-    height: 500px;
+.yt-container {
+  display: flex;
+  justify-content: center;
 }
 
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  /* width: 1000px;  */
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+}
 
 @font-face {
-    font-family: "LeagueSpartan";
-    src: local("LeagueSpartan"),
-      url(../fonts/LeagueSpartan-Bold.woff) format("woff");
-  }
+  font-family: "LeagueSpartan";
+  src: local("LeagueSpartan"),
+    url(../fonts/LeagueSpartan-Bold.woff) format("woff");
+}
