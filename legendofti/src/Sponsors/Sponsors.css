@@ -1,0 +1,129 @@
+.sponsors {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 1100px;
+}
+
+.sponsor-pic {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 200px;
+  z-index: -1;
+  opacity: 0.85;
+  object-fit: cover;
+}
+
+.gameradvantage-pic {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 200px;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.ghost-section {
+  position: absolute;
+  top: 550px;
+  left: 16px;
+}
+.gameradvantage-section {
+  position: absolute;
+  top: 2100px;
+  right: 16px;
+}
+.meta-section {
+  position: absolute;
+  top: 3240px;
+  left: 16px;
+}
+
+.metabutton-section {
+  position: absolute;
+  top: 40px;
+  left: 2200px;
+}
+
+.metapc-logo{
+  width: 400px;
+}
+
+.info-section {
+  display: block;
+}
+
+.ghost-logo {
+  padding-left: 20px;
+  width: 500px;
+}
+
+.gameradvantage-logo {
+  width: 600px;
+  padding-right: 15px;
+}
+.gameradvantage-button-section {
+  position: absolute;
+  top: 40px;
+  right: 2200px;
+}
+
+.button-section {
+  position: absolute;
+  top: 40px;
+  left: 2200px;
+}
+
+.sponsor-link {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Gong";
+  src: local("Gong"), url(/src/fonts/Gong.woff) format("woff");
+}
+
+@media screen and (max-width: 768px) {
+  .sponsor-pic {
+    position: relative;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+    height: 800px;
+  }
+
+  .ghost-section {
+    top: 370px;
+    right: 6px;
+  }
+  .ghost-logo {
+    width: 250px;
+    max-width: 100%;
+    z-index: -1;
+  }
+
+  .gameradvantage-section {
+    top: 1220px;
+    right: 40px;
+    left: 40px;
+  }
+
+  .gameradvantage-logo {
+    width: 340px;
+    max-width: 100%;
+  }
+
+  .meta-section {
+    top: 2000px;
+    right: 120px;
+    left: 120px;
+  }
+
+  .metapc-logo {
+    width: 250px;
+    max-width: 100%;
+  }
+}

@@ -8,6 +8,8 @@ import { FaTwitch } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { SiYoutubeshorts } from "react-icons/si";
+import { FaFacebookSquare } from "react-icons/fa";
+
 
 function Footer() {
     const location = useLocation();
@@ -41,6 +43,9 @@ function Footer() {
         </a>
         <a href="https://kick.com/legendof_ti" className="link">
           <RiKickFill className="icon" />
+        </a>
+        <a href="https://www.facebook.com/people/LegendofTi/100078030915722/" className="link">
+          <FaFacebookSquare className="icon" />
         </a>
       </div>
     </div>

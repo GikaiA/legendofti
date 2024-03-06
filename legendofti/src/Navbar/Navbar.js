@@ -62,6 +62,16 @@ function Navbar() {
         </li>
         <li>
           <Link
+            to="/sponsors"
+            className={`navbar-link ${
+              location.pathname === "/sponsors" ? "active" : ""
+            }`}
+          >
+            Sponsors
+          </Link>
+        </li>
+        <li>
+          <Link
             to="/contact"
             className={`navbar-link ${
               location.pathname === "/contact" ? "active" : ""

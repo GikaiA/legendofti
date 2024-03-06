@@ -30,60 +30,22 @@ function Gaming() {
             className="twitch-chat"
           ></TwitchChat>
         </div>
-        {/* <h1 className="social-title">Youtube</h1>
+        <h1 className="social-title">Youtube</h1>
         <div className="social-container">
           <Carousel
             showArrows={false}
             infiniteLoop={true}
-            autoPlay={false}
+            autoPlay={true}
             showStatus={false}
+            showThumbs={true}
           >
-            <div className="thumbnail-container">
-              <Link
-                to="https://youtu.be/X9Sf5pfMekE?si=rswg2lUBzLEquMnH"
-                className="thumbnail-link"
-              >
-                <img
-                  src={tithumbnail1}
-                  alt="ti-thumbnail"
-                  className="thumbnail"
-                />
-              </Link>
-            </div>
-
-            <Link
-              to="https://youtu.be/X9Sf5pfMekE?si=rswg2lUBzLEquMnH"
-              className="thumbnail-link"
-            >
-              <img
-                src={tithumbnail2}
-                alt="ti-thumbnail"
-                className="thumbnail"
-              />
-            </Link>
-            <Link
-              to="https://youtu.be/X9Sf5pfMekE?si=rswg2lUBzLEquMnH"
-              className="thumbnail-link"
-            >
-              <img
-                src={tithumbnail3}
-                alt="ti-thumbnail"
-                className="thumbnail"
-              />
-            </Link>
-            <Link
-              to="https://youtu.be/X9Sf5pfMekE?si=rswg2lUBzLEquMnH"
-              className="thumbnail-link"
-            >
-              <img
-                src={tithumbnail4}
-                alt="ti-thumbnail"
-                className="thumbnail"
-              />
-            </Link>
+            <img src={tithumbnail1} alt="ti-thumbnail" className="thumbnail" />
+            <img src={tithumbnail2} alt="ti-thumbnail" className="thumbnail" />
+            <img src={tithumbnail3} alt="ti-thumbnail" className="thumbnail" />
+            <img src={tithumbnail4} alt="ti-thumbnail" className="thumbnail" />
           </Carousel>
         </div>
-        <h1 className="social-title">Twitter/X</h1>
+        {/* <h1 className="social-title">Twitter/X</h1>
         <div className="social-container">
           <TwitterTimelineEmbed
             sourceType="timeline"
@@ -97,7 +59,7 @@ function Gaming() {
             url="https://www.instagram.com/legendof_ti/"
             width={900}
           ></InstagramEmbed>
-        </div> */}
+        </div>  */}
       </div>
     </div>
   );

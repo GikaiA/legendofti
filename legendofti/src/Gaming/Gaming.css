@@ -29,13 +29,9 @@
 .thumbnail-container {
   display: flex;
   justify-content: center;
-  /* width: 1000px;  */
 }
 
-.thumbnail {
-  width: 100%;
-  height: auto;
-}
+
 
 @font-face {
   font-family: "LeagueSpartan";
@@ -55,5 +51,9 @@
   .twitch-chat {
     width: 600px;
     max-width: 100%; /* Reduce the width to fit smaller screens */
+  }
+
+  .thumbnail-link{
+    width: 100%;
   }
 }
