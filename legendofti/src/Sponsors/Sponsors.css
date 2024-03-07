@@ -28,24 +28,21 @@
 
 .ghost-section {
   position: absolute;
-  top: 550px;
-  left: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .gameradvantage-section {
   position: absolute;
-  top: 2100px;
-  right: 16px;
+  top: 2200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .meta-section {
   position: absolute;
-  top: 3240px;
-  left: 16px;
-}
-
-.metabutton-section {
-  position: absolute;
-  top: 40px;
-  left: 2200px;
+  top: 3700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .metapc-logo{
@@ -87,6 +84,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .sponsors{
+    width: auto;
+  }
   .sponsor-pic {
     position: relative;
     opacity: 0.8;
@@ -97,29 +98,27 @@
 
   .ghost-section {
     top: 370px;
-    right: 6px;
+    left: 230px;
   }
   .ghost-logo {
-    width: 250px;
-    max-width: 100%;
+    width: 260px;
+    max-width: 500px;
     z-index: -1;
   }
 
   .gameradvantage-section {
     top: 1220px;
-    right: 40px;
-    left: 40px;
+    left: 210px;
   }
 
   .gameradvantage-logo {
-    width: 340px;
-    max-width: 100%;
+    width: 380px;
+    max-width: 600px;
   }
 
   .meta-section {
     top: 2000px;
-    right: 120px;
-    left: 120px;
+    left: 220px;
   }
 
   .metapc-logo {
