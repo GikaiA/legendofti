@@ -3,6 +3,7 @@ import "./Sponsors.css";
 import tighost from "../images/ti-ghost.jpg";
 import tigameradvantage from "../images/ti-gameradvantage.jpg";
 import timeta from "../images/ti-metapc.jpg";
+import tialtcustoms from '../images/ti-altcustoms.jpg'
 import ghost from "../images/ghost-logo.png";
 import gameradvantage from "../images/gamer-advantage.png";
 import altcustoms from "../images/altcustoms.png";
@@ -56,7 +57,17 @@ function Sponsors() {
           </div>
         </div>
       </div>
-      
+      <div className="sponsor-container">
+        <img src={tialtcustoms} alt="ti-altcustom-pic" className="sponsor-pic"></img>
+        <div className="altcustoms-section">
+          <div className="info-section">
+            <a href="https://altcustoms.com/?ref=Ti" className="sponsor-link">
+              {" "}
+              <img src={altcustoms} alt="altcustoms-logo" className="altcustoms-logo"></img>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
