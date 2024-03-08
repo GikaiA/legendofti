@@ -8,6 +8,7 @@ import ghost from "../images/ghost-logo.png";
 import gameradvantage from "../images/gamer-advantage.png";
 import altcustoms from "../images/altcustoms.png";
 import meta from "../images/metapc.png";
+import GamerAdv from "../GamerAdv/GamerAdv";
 
 function Sponsors() {
   return (
@@ -25,7 +26,8 @@ function Sponsors() {
           </div>
         </div>
       </div>
-      <div className="sponsor-container">
+      <GamerAdv/>
+      {/* <div className="sponsor-container">
         <img
           src={tigameradvantage}
           alt="ti-gameradvantage-pic"
@@ -45,7 +47,7 @@ function Sponsors() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="sponsor-container">
         <img src={timeta} alt="ti-ghost-pic" className="sponsor-pic"></img>
         <div className="meta-section">
@@ -57,7 +59,7 @@ function Sponsors() {
           </div>
         </div>
       </div>
-      <div className="sponsor-container">
+      {/* <div className="sponsor-container">
         <img src={tialtcustoms} alt="ti-altcustom-pic" className="sponsor-pic"></img>
         <div className="altcustoms-section">
           <div className="info-section">
@@ -67,7 +69,7 @@ function Sponsors() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
