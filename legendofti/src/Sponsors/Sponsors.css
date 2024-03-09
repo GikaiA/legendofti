@@ -1,4 +1,95 @@
 .sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* margin-bottom: 20px; */
+  width: 100%;
+  height: 100vh; /* Set container height to fill the viewport */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+}
+
+.sponsor-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  min-width: 100%;
+  min-height: 100%;
+  /* height: auto; */
+  z-index: -1;
+}
+
+.ghost-section,
+.gameradvantage-section,
+.meta-section,
+.altcustoms-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.ghost-logo{
+  width: 400px;
+  padding-bottom: 150px;
+}
+
+
+.gameradvantage-logo{
+  width:600px;
+  padding-bottom: 250px;
+}
+
+
+.metapc-logo{
+  width: 600px;
+  padding-bottom: 250px;
+}
+
+.altcustoms-logo{
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .sponsor-container{
+    height: 25vh;
+  }
+  .ghost-logo {
+    width: 200px;
+    max-width: 500px;
+    z-index: -1;
+    padding: 0;
+  }
+
+  .gameradvantage-logo {
+    width: 300px;
+    padding: 0;
+  }
+
+  .metapc-logo {
+    width: 200px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .altcustoms-logo{
+    width: 250px;
+  }
+}
+
+
+/* .sponsors {
   display: block;
   margin: 0;
   padding: 0;
@@ -130,4 +221,6 @@
     width: 250px;
   }
 }
+ */
+
 
