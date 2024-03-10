@@ -12,6 +12,8 @@ import tithumbnail3 from "../images/ti-thumbnail3.jpg";
 import tithumbnail4 from "../images/ti-thumbnail4.jpg";
 
 function Gaming() {
+
+
   return (
     <div className="gaming-wrapper">
       <div className="social-section">
@@ -45,6 +47,16 @@ function Gaming() {
             <img src={tithumbnail4} alt="ti-thumbnail" className="thumbnail" />
           </Carousel>
         </div>
+        <div className="tiktok-embed-wrapper">
+      <iframe
+        title="TikTok Embed"
+        src="https://www.tiktok.com/embed/@legendof_ti"
+        width="100%"
+        height="800"
+        frameBorder="0"
+        allowFullScreen
+      ></iframe>
+    </div>
         {/* <h1 className="social-title">Twitter/X</h1>
         <div className="social-container">
           <TwitterTimelineEmbed

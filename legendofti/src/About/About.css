@@ -5,6 +5,7 @@
   padding-left: 10px;
   height: 1100px;
   max-height: 100%;
+
 }
 
 .ti-pic {
@@ -15,7 +16,6 @@
   font-weight: bolder;
   color: black;
   text-align: center;
-  /* background-color: rgb(172, 172, 172); */
 }
 
 .about-text {
