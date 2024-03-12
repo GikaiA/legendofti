@@ -10,6 +10,7 @@
 .social-container {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .social-title {
@@ -17,8 +18,8 @@
 }
 
 .twitch-video {
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
 }
 
 .yt-container {
@@ -31,7 +32,22 @@
   justify-content: center;
 }
 
+.tiktok-embed-wrapper {
+  width: 100%;
+  max-width: 780px; /* Adjust the max-width as needed */
+  min-width: 288px; /* Adjust the min-width as needed */
+  margin: 0 auto; /* Center the embed */
+}
 
+.tiktok-embed-container {
+  width: 1000px;
+  height: 700px; /* Adjust the height as needed */
+}
+
+.tiktok-embed-container iframe {
+  width: 100%;
+  height: 100%;
+}
 
 @font-face {
   font-family: "LeagueSpartan";

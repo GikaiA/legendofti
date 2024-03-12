@@ -1,8 +1,7 @@
 import React from "react";
 import "./Gaming.css";
-import { Link } from "react-router-dom";
 import { TwitchPlayer, TwitchChat } from "react-twitch-embed";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
+import {TwitterTweetEmbed } from "react-twitter-embed";
 import { InstagramEmbed } from "react-social-media-embed";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -12,8 +11,6 @@ import tithumbnail3 from "../images/ti-thumbnail3.jpg";
 import tithumbnail4 from "../images/ti-thumbnail4.jpg";
 
 function Gaming() {
-
-
   return (
     <div className="gaming-wrapper">
       <div className="social-section">
@@ -24,11 +21,13 @@ function Gaming() {
             autoplay
             muted
             className="twitch-video"
+            width={1200}
+            height={800}
           ></TwitchPlayer>
           <TwitchChat
             channel="legendof_ti"
             darkMode={true}
-            height={480}
+            height={800}
             className="twitch-chat"
           ></TwitchChat>
         </div>
@@ -47,31 +46,42 @@ function Gaming() {
             <img src={tithumbnail4} alt="ti-thumbnail" className="thumbnail" />
           </Carousel>
         </div>
+        <h1 className="social-title">Tiktok</h1>
         <div className="tiktok-embed-wrapper">
-      <iframe
-        title="TikTok Embed"
-        src="https://www.tiktok.com/embed/@legendof_ti"
-        width="100%"
-        height="800"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
-    </div>
-        {/* <h1 className="social-title">Twitter/X</h1>
-        <div className="social-container">
-          <TwitterTimelineEmbed
-            sourceType="timeline"
-            screenName="LegendofTi"
-            options={{ height: 800, width: 1200 }}
-          ></TwitterTimelineEmbed>
+          <iframe
+            title="TikTok Embed"
+            src="https://www.tiktok.com/embed/@legendof_ti"
+            display="block"
+            width="100%"
+            height="500"
+            // max-width="100%"
+            frameBorder="0"
+            allowFullScreen
+            overflow="none"
+          ></iframe>
         </div>
         <h1 className="social-title">Instagram</h1>
         <div className="social-container">
           <InstagramEmbed
             url="https://www.instagram.com/legendof_ti/"
-            width={900}
+            width="100%"
           ></InstagramEmbed>
-        </div>  */}
+        </div>
+        <h1 className="social-title">Twitter/X</h1>
+        <div className="social-container">
+          <TwitterTweetEmbed
+            tweetId={"1731768205230964791"}
+            options={{ width: 800, height: 400 }}
+          />
+          <TwitterTweetEmbed
+            tweetId={"1713637108269945190"}
+            options={{ width: 900, height: 400 }}
+          />
+          <TwitterTweetEmbed
+            tweetId={"1704661068268900800"}
+            options={{ width: 900, height: 400 }}
+          />
+        </div>
       </div>
     </div>
   );

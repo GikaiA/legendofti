@@ -26,7 +26,7 @@
 }
 
 .white {
-  background-color: #ad84a3;
+  background-color: #515D78;
 }
 
 .navbar-link {
@@ -52,6 +52,10 @@
   text-decoration: underline;
   text-decoration-color: #ffb6ad;
   text-decoration-thickness: 3.5px;
+}
+
+.navbar-icons-section{
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -94,6 +98,20 @@
   .navbar-menu.open {
     left: 0;
     z-index: 9;
+  }
+
+  .navbar-icons-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left:20px ;
+  }
+
+  .navbar-icon{
+    width: 100px;
+    height: 40px;
+    color:black;
   }
 
 

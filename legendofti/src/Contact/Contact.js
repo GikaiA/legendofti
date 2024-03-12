@@ -1,9 +1,12 @@
 import React from "react";
 import "./Contact.css";
+// import ticontact from '../images/ti-contact.jpg'
 
 function Contact() {
   return (
     <div className="contact-section">
+      <div className="contact-content">
+      {/* <img src={ticontact} alt="ti-contact" className="ti-contact"></img> */}
       <div className="container">
         <h1>Please Email for Serious Inquiries</h1>
         <form className="contact-form">
@@ -26,6 +29,7 @@ function Contact() {
             </button>
           </div>
         </form>
+      </div>
       </div>
     </div>
   );
