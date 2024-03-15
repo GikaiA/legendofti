@@ -2,16 +2,10 @@
 import React from "react";
 import "./About.css";
 import ti from "../images/ti-landscape.png";
-import tiabout from '../videos/about-bg.mp4';
 
 function About() {
   return (
     <>
-      <div className="about-wrapper">
-      {/* <video autoPlay muted controls={false} loop playsInline={true}>
-          <source src={tiabout} type="video/mp4"></source>
-        </video> */}
-      </div>
       <div className="about-section">
         <img src={ti} alt="ti-image" className="ti-pic"></img>
         <div className="about-paragraph">
@@ -31,7 +25,7 @@ function About() {
             carve a niche in the ever-evolving landscape of content creation.
           </p>
         </div>
-      </div>{" "}
+      </div>
     </>
   );
 }

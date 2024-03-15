@@ -1,7 +1,7 @@
 import React from "react";
 import "./Gaming.css";
 import { TwitchPlayer, TwitchChat } from "react-twitch-embed";
-import {TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 import { InstagramEmbed } from "react-social-media-embed";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -31,7 +31,7 @@ function Gaming() {
             className="twitch-chat"
           ></TwitchChat>
         </div>
-        <h1 className="social-title">Youtube</h1>
+        <a href="https://www.youtube.com/@LegendofTi" className="youtube-link"><h1 className="social-title">Youtube *CLICK ME*</h1></a>
         <div className="social-container">
           <Carousel
             showArrows={false}

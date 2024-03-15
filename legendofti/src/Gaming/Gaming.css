@@ -49,6 +49,11 @@
   height: 100%;
 }
 
+.youtube-link{
+  text-decoration: none;
+  color: black;
+}
+
 @font-face {
   font-family: "LeagueSpartan";
   src: local("LeagueSpartan"),
