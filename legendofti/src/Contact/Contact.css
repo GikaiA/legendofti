@@ -7,8 +7,9 @@
   background-image: url("../images/ti-contact.jpg");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 110vh;
   width: 100%;
+  max-height: 100%;
 }
 
 .contact-content {
