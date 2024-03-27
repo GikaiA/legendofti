@@ -31,7 +31,9 @@ function Gaming() {
             className="twitch-chat"
           ></TwitchChat>
         </div>
-        <a href="https://www.youtube.com/@LegendofTi" className="youtube-link"><h1 className="social-title">Youtube *CLICK ME*</h1></a>
+        <a href="https://www.youtube.com/@LegendofTi" className="youtube-link">
+          <h1 className="social-title">Youtube *CLICK ME*</h1>
+        </a>
         <div className="social-container">
           <Carousel
             showArrows={false}
