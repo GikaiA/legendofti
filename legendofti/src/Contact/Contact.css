@@ -72,6 +72,10 @@ input{
 }
 
 @media (max-width: 768px) {
+
+  .contact-section{
+    height: 90vh;
+  }
   .container {
     width: 90%;
     margin-top: 200px;
