@@ -17,7 +17,7 @@ function Gaming() {
         <h1 className="social-title">Twitch</h1>
         <div className="social-container">
           <TwitchPlayer
-            channel="legendof_ti"
+            channel="legendofti"
             autoplay
             muted
             className="twitch-video"
@@ -25,7 +25,7 @@ function Gaming() {
             height={800}
           ></TwitchPlayer>
           <TwitchChat
-            channel="legendof_ti"
+            channel="legendofti"
             darkMode={true}
             height={800}
             className="twitch-chat"
