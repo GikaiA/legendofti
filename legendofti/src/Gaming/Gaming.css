@@ -32,6 +32,10 @@
   justify-content: center;
 }
 
+.thumbnail{
+  width: 400px;
+}
+
 .tiktok-embed-wrapper {
   width: 100%;
   max-width: 780px; /* Adjust the max-width as needed */

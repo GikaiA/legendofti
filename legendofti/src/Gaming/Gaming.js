@@ -71,13 +71,13 @@ function Gaming() {
         </div>
         <h1 className="social-title">Twitter/X</h1>
         <div className="social-container">
+          
           <TwitterTweetEmbed
-            tweetId={"1731768205230964791"}
-            options={{ width: 800, height: 400 }}
-          />
-          <TwitterTweetEmbed
-            tweetId={"1713637108269945190"}
+            tweetId={"1805370064725852584"}
             options={{ width: 900, height: 400 }}
+          /><TwitterTweetEmbed
+            tweetId={"1799873723996217721"}
+            options={{ width: 800, height: 400 }}
           />
           <TwitterTweetEmbed
             tweetId={"1704661068268900800"}

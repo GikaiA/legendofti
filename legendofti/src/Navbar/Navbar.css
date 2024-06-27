@@ -93,6 +93,7 @@
     background-color: #fff;
     padding: 20px;
     transition: left 0.3s ease;
+    z-index: 9;
   }
 
   .navbar-menu.open {
@@ -116,7 +117,7 @@
 
 
   .tipfp{
-    width: 60px;
+    width: 70px;
   }
 }
 
