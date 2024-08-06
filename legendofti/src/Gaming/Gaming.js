@@ -65,7 +65,7 @@ function Gaming() {
         <h1 className="social-title">Instagram</h1>
         <div className="social-container">
           <InstagramEmbed
-            url="https://www.instagram.com/legendof_ti/"
+            url="https://www.instagram.com/legendofti/"
             width="100%"
           ></InstagramEmbed>
         </div>

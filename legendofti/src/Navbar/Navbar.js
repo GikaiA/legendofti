@@ -79,7 +79,7 @@ function Navbar() {
             Sponsors
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/contact"
             className={`navbar-link ${
@@ -88,7 +88,7 @@ function Navbar() {
           >
             Contact
           </Link>
-        </li>{" "}
+        </li>{" "} */}
         <div className="navbar-icons-section">
           <a href="https://discord.gg/FQV2B9MfRT" className="link">
             <FaDiscord className="navbar-icon" />
