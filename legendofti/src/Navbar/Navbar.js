@@ -79,6 +79,16 @@ function Navbar() {
             Sponsors
           </Link>
         </li>
+        <li>
+          <Link
+            to="https://stickerworldbykat.bigcartel.com/product/legend-of-ti-stickers"
+            className={`navbar-link ${
+              location.pathname === "/sponsors" ? "active" : ""
+            }`}
+          >
+            Merch 
+          </Link>
+        </li>
         {/* <li>
           <Link
             to="/contact"
