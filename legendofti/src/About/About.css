@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .about-section {
-    max-height: 865px; /* Reset max-height */
+    max-height: 110vh; /* Reset max-height */
   }
 
 

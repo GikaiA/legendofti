@@ -63,7 +63,7 @@
 @media screen and (max-width: 768px) {
 
   .sponsors{
-    height: 110vh
+    height: 108vh
   }
   .sponsor-container{
     height: 25vh;
@@ -87,6 +87,6 @@
   }
 
   .scuf-logo{
-    width: 250px;
+    width: 150px;
   }
 }
