@@ -28,12 +28,12 @@
 
 @media screen and (max-width: 768px) {
   .about-section {
-    max-height: 110vh; /* Reset max-height */
+    height: 120vh; /* Reset max-height */
   }
 
 
   .about-text {
-    font-size: 18px; /* Reduced font size further for smaller screens */
+    font-size: 16px; /* Reduced font size further for smaller screens */
     padding: 0;
   }
 
