@@ -83,7 +83,7 @@ function Navbar() {
           <Link
             to="https://stickerworldbykat.bigcartel.com/product/legend-of-ti-stickers"
             className={`navbar-link ${
-              location.pathname === "/sponsors" ? "active" : ""
+              location.pathname === "/merch" ? "active" : ""
             }`}
           >
             Merch 

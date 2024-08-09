@@ -57,12 +57,12 @@ function Sponsors() {
       </div>
        <div className="sponsor-container">
         <img src={tiscuf} alt="ti-scuf-pic" className="sponsor-pic"></img>
-        <div className="altcustoms-section">
+        <div className="scuf-section">
           <div className="info-section">
-            {/* <a href="https://altcustoms.com/?ref=Ti" className="sponsor-link"> */}
+            <a href="https://scufgaming.sjv.io/c/3116279/1897353/22689" className="sponsor-link">
               {" "}
               <img src={scuf} alt="scuf-logo" className="scuf-logo"></img>
-            {/* </a> */}
+            </a>
           </div>
         </div>
       </div> 
