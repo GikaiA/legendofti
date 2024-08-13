@@ -1,31 +1,22 @@
 .sponsors {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  background-image: url('../images/ti-sponsorbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 
 .sponsor-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /* margin-bottom: 20px; */
-  width: 100%;
-  height: 100vh; /* Set container height to fill the viewport */
-  background-size: cover; /* Ensure the background image covers the container */
-  background-position: center; /* Center the background image */
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
 }
-
+ 
 .sponsor-pic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 200px;
-  min-width: 100%;
-  min-height: 100%;
-  /* height: auto; */
   z-index: -1;
 }
 
@@ -34,42 +25,53 @@
 .meta-section,
 .scuf-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 
 .ghost-logo{
   width: 400px;
-  padding-bottom: 150px;
 }
 
 
 .gameradvantage-logo{
   width:600px;
-  padding-bottom: 250px;
 }
 
 
 .metapc-logo{
   width: 500px;
-  padding-bottom: 250px;
 }
 
 .scuf-logo{
-  width: 500px;
+  width:300px;
 }
 
 @media screen and (max-width: 768px) {
 
   .sponsors{
-    height: 108vh
+    display: block;
+    height: 108vh;
+    
   }
   .sponsor-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 25vh;
+    padding: 0;
+    
+  }
+
+  .sponsor-title{
+    margin: 0;
+    background-color:#515D78 ;
+    color: white;
   }
   .ghost-logo {
-    width: 200px;
+    width: 250px;
     max-width: 500px;
     z-index: -1;
     padding: 0;
