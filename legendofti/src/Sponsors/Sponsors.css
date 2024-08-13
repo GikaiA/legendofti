@@ -12,9 +12,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 100px;
+  padding-left: 160px;
 }
  
+.sponsor-title-section{
+  display: none;
+}
 .sponsor-pic {
   width: 200px;
   z-index: -1;
