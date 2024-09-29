@@ -1,8 +1,9 @@
 .sponsors {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  background-image: url('../images/ti-sponsorbackground.jpg');
+  background-image: url("../images/ti-sponsorbackground.jpg");
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -14,8 +15,8 @@
   justify-content: space-between;
   padding-left: 160px;
 }
- 
-.sponsor-title-section{
+
+.sponsor-title-section {
   display: none;
 }
 .sponsor-pic {
@@ -32,45 +33,39 @@
   align-items: center;
 }
 
-
-.ghost-logo{
+.ghost-logo {
   width: 400px;
 }
 
-
-.gameradvantage-logo{
-  width:600px;
+.gameradvantage-logo {
+  width: 600px;
 }
 
-
-.metapc-logo{
+.metapc-logo {
   width: 500px;
 }
 
-.scuf-logo{
-  width:300px;
+.scuf-logo {
+  width: 300px;
 }
 
 @media screen and (max-width: 768px) {
-
-  .sponsors{
+  .sponsors {
     display: block;
     height: 108vh;
-    
   }
-  .sponsor-container{
+  .sponsor-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 25vh;
     padding: 0;
-    
   }
 
-  .sponsor-title{
+  .sponsor-title {
     margin: 0;
-    background-color:#515D78 ;
+    background-color: #515d78;
     color: white;
   }
   .ghost-logo {
@@ -81,17 +76,17 @@
   }
 
   .gameradvantage-logo {
-    width: 300px;
+    width: 350px;
     padding: 0;
   }
 
   .metapc-logo {
-    width: 200px;
+    width: 280px;
     max-width: 100%;
     padding: 0;
   }
 
-  .scuf-logo{
+  .scuf-logo {
     width: 150px;
   }
 }
