@@ -34,7 +34,19 @@ function Gaming() {
         <a href="https://www.youtube.com/@LegendofTi" className="youtube-link">
           <h1 className="social-title">Youtube *CLICK ME*</h1>
         </a>
-        <div className="social-container">
+        <div className="video-container">
+        {/* Embed the YouTube channel or playlist */}
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/@legendofti2.0"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="YouTube Channel"
+        ></iframe>
+      </div>
+        {/* <div className="social-container">
           <Carousel
             showArrows={false}
             infiniteLoop={true}
@@ -47,7 +59,7 @@ function Gaming() {
             <img src={tithumbnail3} alt="ti-thumbnail" className="thumbnail" />
             <img src={tithumbnail4} alt="ti-thumbnail" className="thumbnail" />
           </Carousel>
-        </div>
+        </div> */}
         <h1 className="social-title">Tiktok</h1>
         <div className="tiktok-embed-wrapper">
           <iframe

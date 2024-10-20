@@ -51,7 +51,7 @@ function Sponsors() {
         <div className="scuf-section">
           <div className="info-section">
             <a
-              href="https://scufgaming.sjv.io/c/3116279/1897353/22689"
+              href="https://scuf.co/QueenTi"
               className="sponsor-link"
             >
               {" "}
