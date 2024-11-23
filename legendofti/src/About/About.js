@@ -1,13 +1,15 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./About.css";
-import ti from "../images/ti-landscape.png";
 
 function About() {
   return (
     <>
       <div className="about-section">
-        <img src={ti} alt="ti-image" className="ti-pic"></img>
+        <div className="parallax">
+        <div className="about-title-section">
+          <p className="about-title">LegendOfTi</p>
+        </div>
         <div className="about-paragraph">
           <p className="about-text">
             LegendOfTi is a multifaceted content creator, celebrated for her
@@ -24,6 +26,7 @@ function About() {
             of dedication and creativity, proving that with persistence, one can
             carve a niche in the ever-evolving landscape of content creation.
           </p>
+          </div>
         </div>
       </div>
     </>
