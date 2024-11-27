@@ -35,16 +35,7 @@ function Gaming() {
           <h1 className="social-title">Youtube *CLICK ME*</h1>
         </a>
         <div className="video-container">
-        {/* Embed the YouTube channel or playlist */}
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/@legendofti2.0"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="YouTube Channel"
-        ></iframe>
+          
       </div>
         {/* <div className="social-container">
           <Carousel

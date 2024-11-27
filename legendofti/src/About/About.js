@@ -8,7 +8,7 @@ function About() {
       <div className="about-section">
         <div className="parallax">
         <div className="about-title-section">
-          <p className="about-title">LegendOfTi</p>
+          <p className="about-title">Legend Of Ti</p>
         </div>
         <div className="about-paragraph">
           <p className="about-text">

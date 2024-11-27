@@ -3,12 +3,13 @@
   display: flex;
   /* padding-top: 20px;
   padding-left: 10px; */
-  height: 100vh;
+  height: 135vh;
 }
 
 .parallax {
   background-image: url("../images/ti-gameradvantage.jpg");
   min-height: 100%;
+  min-width: none;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +17,7 @@
 }
 
 .about-paragraph {
-  padding-top: 550px;
+  padding-top: 350px;
   font-weight: bolder;
   color: white;
   text-align: center;
@@ -31,34 +32,45 @@
 
 .about-title {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   letter-spacing: 8px;
   font-family: "LeagueSpartan";
 }
 
 .about-text {
-  background-color: black;
+  background-color: #515D78;
   font-size: 30px;
   padding: 12px 240px;
   margin: 8px 0;
-  height: 50vh;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .about-section {
-    height: 100vh;
+    height: 113vh; 
+    padding-left: 0;
+    padding-top: 0;
   }
 
+  .about-title-section{
+    top:30%;
+  }
+
+  .about-paragraph{
+    padding-top: 350px;
+
+  }
   .about-text {
-    font-size: 16px; /* Reduced font size further for smaller screens */
+    font-size: 22px; /* Reduced font size further for smaller screens */
     padding: 0;
+    padding-top: 5px;
   }
 
   .ti-pic {
     width: 100%;
   }
-  .about-section {
-    padding-left: 0;
-    padding-top: 0;
+
+  .parallax{
+    background-attachment: scroll;
   }
 }
