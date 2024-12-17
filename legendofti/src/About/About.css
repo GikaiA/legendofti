@@ -1,8 +1,6 @@
-.about-section {
+/* .about-section {
   background-color: white;
   display: flex;
-  /* padding-top: 20px;
-  padding-left: 10px; */
   height: 135vh;
 }
 
@@ -61,7 +59,7 @@
 
   }
   .about-text {
-    font-size: 22px; /* Reduced font size further for smaller screens */
+    font-size: 22px; 
     padding: 0;
     padding-top: 5px;
   }
@@ -72,5 +70,85 @@
 
   .parallax{
     background-attachment: scroll;
+  }
+} */
+
+.about-section {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+.parallax {
+  background-image: url("../images/ti-gameradvantage.jpg"); /* Ensure the path is correct */
+  height: 100%; /* Ensure full height of the container */
+  width: 100%; /* Ensure full width */
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Maintain image coverage */
+}
+
+.about-title-section {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.about-title {
+  color: white;
+  font-size: 65px;
+  letter-spacing: 8px;
+  font-family: "LeagueSpartan";
+}
+
+.about-paragraph {
+  position: absolute; /* Position it at the bottom */
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.about-text {
+  background-color: rgba(81, 93, 120, 0.9);
+  font-size: 40px;
+  padding: 12px 20px;
+  margin: 0 auto;
+  height: 550px;
+  max-height: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    height: 100vh; 
+  }
+
+  .about-title-section {
+    top: 30%;
+  }
+
+  .about-title{
+    font-size: 45px;
+  }
+
+  .about-paragraph {
+    bottom: 0; /* Keep the text at the bottom on mobile too */
+  }
+
+  .about-text {
+    font-size: 18px;
+    padding: 10px;
+    height: 650px;
+  }
+
+  .parallax {
+    background-attachment: scroll; /* Disable parallax on mobile for performance */
   }
 }

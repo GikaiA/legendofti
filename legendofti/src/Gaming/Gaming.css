@@ -22,18 +22,46 @@
   height: 500px;
 }
 
-.yt-container {
-  display: flex;
+.video-container {
+  display: block;
   justify-content: center;
 }
 
-.thumbnail-container {
+.yt-profile-section{
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
+  padding: 10px 95px;
+}
+
+.yt-profile{
+  display: block;
+}
+
+.yt-pic{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.yt2-pic{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.yt3-pic{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.thumbnail-section {
+  display: block;
 }
 
 .thumbnail{
-  width: 400px;
+  margin-top: 10px;
+}
+
+.yt-link{
+  text-decoration: none;
 }
 
 .tiktok-embed-wrapper {
@@ -78,7 +106,22 @@
     max-width: 100%; /* Reduce the width to fit smaller screens */
   }
 
+  .yt-profile-section{
+    display: block;
+    padding: 0;
+  }
+
+  .thumbnail{
+    column-gap: 10px;
+    width: 200px;
+  }
+
   .thumbnail-link{
     width: 100%;
+  }
+
+  .react-player {
+    width: 100% !important; /* Full width for mobile */
+    height: 250px !important; /* Let height adjust to maintain aspect ratio */
   }
 }

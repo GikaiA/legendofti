@@ -1,14 +1,12 @@
 import React from "react";
 import "./Gaming.css";
 import { TwitchPlayer, TwitchChat } from "react-twitch-embed";
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import {TwitterTimelineEmbed} from 'react-twitter-embed';
 import { InstagramEmbed } from "react-social-media-embed";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import tithumbnail1 from "../images/ti-thumbnail1.jpg";
-import tithumbnail2 from "../images/ti-thumbnail2.jpg";
-import tithumbnail3 from "../images/ti-thumbnail3.jpg";
-import tithumbnail4 from "../images/ti-thumbnail4.jpg";
+import tiyt from "../images/ti-yt.png";
+import tiyt2 from "../images/ti-yt2.jpg";
+import tiyt3 from "../images/ti-yt3.jpg";
+import ReactPlayer from "react-player/youtube";
 
 function Gaming() {
   return (
@@ -31,26 +29,71 @@ function Gaming() {
             className="twitch-chat"
           ></TwitchChat>
         </div>
-        <a href="https://www.youtube.com/@LegendofTi" className="youtube-link">
-          <h1 className="social-title">Youtube *CLICK ME*</h1>
-        </a>
+        <h1 className="social-title">Youtube</h1>
         <div className="video-container">
-          
-      </div>
-        {/* <div className="social-container">
-          <Carousel
-            showArrows={false}
-            infiniteLoop={true}
-            autoPlay={true}
-            showStatus={false}
-            showThumbs={true}
-          >
-            <img src={tithumbnail1} alt="ti-thumbnail" className="thumbnail" />
-            <img src={tithumbnail2} alt="ti-thumbnail" className="thumbnail" />
-            <img src={tithumbnail3} alt="ti-thumbnail" className="thumbnail" />
-            <img src={tithumbnail4} alt="ti-thumbnail" className="thumbnail" />
-          </Carousel>
-        </div> */}
+          <div className="yt-profile-section">
+            <div className="yt-profile">
+              <img src={tiyt} alt="ti-yt-pfp" className="yt-pic"></img>
+              <div className="thumbnail-section">
+                <div className="player-wrapper">
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/vTWWoAX-FbU?si=p0L8u9HK0JyCCuST"
+                  controls
+                  width="640px"
+                  height="360px"
+                /></div>
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/ET0pOoBzJ5o?si=LO6SyzzfPxtKJzzf"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/A9QqTFU2bAc?si=Wvige2KS3oqO-VgZ"
+                  controls
+                />
+              </div>
+            </div>
+            <div className="yt-profile">
+              <img src={tiyt2} alt="ti-yt2-pfp" className="yt2-pic"></img>
+              <div className="thumbnail-section">
+                <ReactPlayer  className="react-player"
+                  url="https://youtu.be/tGX4egjMBJQ?si=LSEjbgio2sWVZfKD"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/LIMOu_ayUVs?si=5hfSb_IHdLuJv1Io"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/WY0B1HpBMPs?si=koMN_cdaiYaEoC1a"
+                  controls
+                />
+              </div>
+            </div>
+            <div className="yt-profile">
+              <img src={tiyt3} alt="ti-yt3-pfp" className="yt3-pic"></img>
+              <div className="thumbnail-section">
+                <ReactPlayer className="react-player"
+                  url="https://www.youtube.com/shorts/cDTPstQhy9o"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://www.youtube.com/shorts/RZ60crXF-QQ"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
+                  url="https://youtu.be/V6_9Xp6M15Y?si=N52DbimDTmrAWYes"
+                  controls
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <h1 className="social-title">Tiktok</h1>
         <div className="tiktok-embed-wrapper">
           <iframe
@@ -74,18 +117,11 @@ function Gaming() {
         </div>
         <h1 className="social-title">Twitter/X</h1>
         <div className="social-container">
-          
-          <TwitterTweetEmbed
-            tweetId={"1805370064725852584"}
-            options={{ width: 900, height: 400 }}
-          /><TwitterTweetEmbed
-            tweetId={"1799873723996217721"}
-            options={{ width: 800, height: 400 }}
-          />
-          <TwitterTweetEmbed
-            tweetId={"1704661068268900800"}
-            options={{ width: 900, height: 400 }}
-          />
+        <TwitterTimelineEmbed
+  sourceType="profile"
+  screenName="LegendofTi"
+  options={{width:1800, height: 1400}}
+/>
         </div>
       </div>
     </div>
