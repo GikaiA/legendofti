@@ -3,7 +3,6 @@ import "./Sponsors.css";
 import ghost from "../images/ghost-logo.png";
 import gameradvantage from "../images/gamer-advantage.png";
 import scuf from "../images/scuf.png";
-import meta from "../images/metapc.png";
 
 function Sponsors() {
   return (
@@ -33,16 +32,6 @@ function Sponsors() {
                 alt="gamer-advantage"
                 className="gameradvantage-logo"
               ></img>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="sponsor-container">
-        <div className="meta-section">
-          <div className="info-section">
-            <a href="https://www.metapcs.com/ref/ti/" className="sponsor-link">
-              {" "}
-              <img src={meta} alt="metapc-logo" className="metapc-logo"></img>
             </a>
           </div>
         </div>

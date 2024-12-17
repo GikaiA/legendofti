@@ -1,5 +1,6 @@
 .sponsors {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -12,8 +13,8 @@
 .sponsor-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-left: 160px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .sponsor-title-section {
@@ -26,7 +27,6 @@
 
 .ghost-section,
 .gameradvantage-section,
-.meta-section,
 .scuf-section {
   display: flex;
   flex-direction: row;
@@ -39,10 +39,6 @@
 
 .gameradvantage-logo {
   width: 600px;
-}
-
-.metapc-logo {
-  width: 500px;
 }
 
 .scuf-logo {
@@ -77,12 +73,6 @@
 
   .gameradvantage-logo {
     width: 350px;
-    padding: 0;
-  }
-
-  .metapc-logo {
-    width: 280px;
-    max-width: 100%;
     padding: 0;
   }
 
