@@ -131,7 +131,7 @@
   }
 
   .about-title-section {
-    top: 30%;
+    top: 20%;
   }
 
   .about-title{
@@ -145,7 +145,7 @@
   .about-text {
     font-size: 18px;
     padding: 10px;
-    height: 650px;
+    height: 600px;
   }
 
   .parallax {
