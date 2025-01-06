@@ -58,17 +58,17 @@ function Gaming() {
               <img src={tiyt2} alt="ti-yt2-pfp" className="yt2-pic"></img>
               <div className="thumbnail-section">
                 <ReactPlayer  className="react-player"
-                  url="https://youtu.be/rnVf9FP5MIw?si=kRyEkRtBAiigEMtU"
+                  url="https://youtu.be/jKlT3vvwuIk?si=8Y_WBV4vuYyqL1a_"
                   controls
                 />
                 <br></br>
                 <ReactPlayer className="react-player"
-                  url="https://youtu.be/tGX4egjMBJQ?si=LSEjbgio2sWVZfKD"
+                  url="https://youtu.be/rnVf9FP5MIw?si=_-WJi8RDkF6hMS3n"
                   controls
                 />
                 <br></br>
                 <ReactPlayer className="react-player"
-                  url="https://youtu.be/WY0B1HpBMPs?si=koMN_cdaiYaEoC1a"
+                  url="https://youtu.be/tGX4egjMBJQ?si=pc5ki6xY3XMshxUC"
                   controls
                 />
               </div>
