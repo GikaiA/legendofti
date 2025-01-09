@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar ul {
