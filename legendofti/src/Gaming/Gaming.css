@@ -13,6 +13,11 @@
   margin: 0;
 }
 
+.twitter-social-container{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
 .social-title {
   font-family: "LeagueSpartan";
 }
@@ -86,6 +91,10 @@
   color: black;
 }
 
+.twitter-mobile-container{
+  display: none;
+}
+
 @font-face {
   font-family: "LeagueSpartan";
   src: local("LeagueSpartan"),
@@ -123,5 +132,13 @@
   .react-player {
     width: 100% !important; /* Full width for mobile */
     height: 250px !important; /* Let height adjust to maintain aspect ratio */
+  }
+
+  .twitter-social-container{
+    display: none;
+  }
+
+  .twitter-mobile-container{
+    display: block;
   }
 }

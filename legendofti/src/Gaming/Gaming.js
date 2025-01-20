@@ -1,7 +1,7 @@
 import React from "react";
 import "./Gaming.css";
 import { TwitchPlayer, TwitchChat } from "react-twitch-embed";
-import {TwitterTimelineEmbed} from 'react-twitter-embed';
+import {TwitterTimelineEmbed, TwitterTweetEmbed} from 'react-twitter-embed';
 import { InstagramEmbed } from "react-social-media-embed";
 import tiyt from "../images/ti-yt.png";
 import tiyt2 from "../images/ti-yt2.jpg";
@@ -58,17 +58,17 @@ function Gaming() {
               <img src={tiyt2} alt="ti-yt2-pfp" className="yt2-pic"></img>
               <div className="thumbnail-section">
                 <ReactPlayer  className="react-player"
+                  url="https://youtu.be/SSINwjTgMSA?si=odbvTeYacLA-rIZE"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
                   url="https://youtu.be/jKlT3vvwuIk?si=8Y_WBV4vuYyqL1a_"
                   controls
                 />
                 <br></br>
                 <ReactPlayer className="react-player"
-                  url="https://youtu.be/rnVf9FP5MIw?si=_-WJi8RDkF6hMS3n"
-                  controls
-                />
-                <br></br>
-                <ReactPlayer className="react-player"
-                  url="https://youtu.be/tGX4egjMBJQ?si=pc5ki6xY3XMshxUC"
+                  url="https://youtu.be/rnVf9FP5MIw?si=bbvZqcSJ5vqyaxfw"
                   controls
                 />
               </div>
@@ -116,12 +116,17 @@ function Gaming() {
           ></InstagramEmbed>
         </div>
         <h1 className="social-title">Twitter/X</h1>
-        <div className="social-container">
+        <div className="twitter-social-container">
         <TwitterTimelineEmbed
   sourceType="profile"
   screenName="LegendofTi"
   options={{width:1800, height: 1400}}
 />
+        </div>
+        <div className="twitter-mobile-container">
+        <TwitterTweetEmbed tweetId={'1880435923932123406'}/>
+        <TwitterTweetEmbed tweetId={'1880326494737834461'}/>
+        <TwitterTweetEmbed tweetId={'1879278109419331708'}/>
         </div>
       </div>
     </div>
