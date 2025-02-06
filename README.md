@@ -1,5 +1,5 @@
 # LegendofTi Portfolio Website
-Live Link (https://legendofti.netlify.app/)
+[Live Link] (https://legendofti.netlify.app/)
 This custom portfolio website was designed and developed to highlight the unique style and brand of the creator, integrating social media and sponsor visibility enhancements to maximize engagement and revenue.
 
 ## Features
