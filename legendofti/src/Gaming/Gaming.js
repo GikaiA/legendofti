@@ -58,17 +58,17 @@ function Gaming() {
               <img src={tiyt2} alt="ti-yt2-pfp" className="yt2-pic"></img>
               <div className="thumbnail-section">
                 <ReactPlayer  className="react-player"
+                  url="https://youtu.be/gNvZ-DoFF1w?si=Mf4vNBSr_qXcrcmG"
+                  controls
+                />
+                <br></br>
+                <ReactPlayer className="react-player"
                   url="https://youtu.be/SSINwjTgMSA?si=odbvTeYacLA-rIZE"
                   controls
                 />
                 <br></br>
                 <ReactPlayer className="react-player"
                   url="https://youtu.be/jKlT3vvwuIk?si=8Y_WBV4vuYyqL1a_"
-                  controls
-                />
-                <br></br>
-                <ReactPlayer className="react-player"
-                  url="https://youtu.be/rnVf9FP5MIw?si=bbvZqcSJ5vqyaxfw"
                   controls
                 />
               </div>
@@ -134,3 +134,5 @@ function Gaming() {
 }
 
 export default Gaming;
+
+//https://youtu.be/gNvZ-DoFF1w?si=Mf4vNBSr_qXcrcmG
