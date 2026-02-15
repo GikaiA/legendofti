@@ -39,7 +39,7 @@ function Navbar() {
         <div className="bar"></div>
       </div>
       <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
-        <li>
+        {/* <li>
           <Link
             to="/"
             className={`navbar-link ${
@@ -48,7 +48,7 @@ function Navbar() {
           >
             Home
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="/about"
